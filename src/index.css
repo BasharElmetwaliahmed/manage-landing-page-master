@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+.btn {
+    @apply rounded-[35px] text-white bg-primaryred px-7 py-3 hover:opacity-70 transition-all duration-500 cursor-pointer
+}
+}

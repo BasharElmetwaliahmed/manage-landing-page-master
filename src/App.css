@@ -1,0 +1,16 @@
+body{
+  background:#FFF;
+}
+.swiper-wrapper{
+  margin: auto;
+}
+.swiper-pagination-bullet-active{
+  background-color: #f25f3a !important;
+}
+.swiper-pagination-bullet{
+  background-color: transparent;
+  border: #f25f3a 1px solid;
+  opacity: 1;
+  width: 10px;
+  height:10px;
+}
