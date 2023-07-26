@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import imgLogo from '../assets/images/logo.svg'
 function Header() {
     const [links,setLinks]=useState(['Pricing','Product','About Us','Careers','Community'])
-    const [navOpened,setNavOpened]=useState(true)
+    const [navOpened,setNavOpened]=useState(false)
     const [activeBg,setActiveBg]=useState(false)
 
     useEffect(()=>{
